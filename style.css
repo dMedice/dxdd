@@ -1,0 +1,200 @@
+
+body{
+   align-items:center;  
+   
+   background-image: linear-gradient(#bdcaff,#ffcbff);
+   height: 1000px;
+}
+
+.angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+   
+}
+#pokemon-a{
+   display: flex;
+   height: 200px;
+   background-color: white;
+   border-style: double;
+   box-sizing: border-box;
+   width: 300px; 
+   margin-left: auto;
+   margin-right: auto; 
+   justify-content:center;
+   flex-direction: column;
+
+} 
+#item-colocar{
+   display: flex;
+   height: 200px;
+   background-color: white;
+   border-style: double;
+   box-sizing: border-box;
+   width: 200px; 
+   margin-left: auto;
+   margin-right: auto; 
+   justify-content:center;
+   flex-direction: column;
+} 
+#item-0 {
+
+   background-color: #8ae2ff; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 1;
+   grid-column-end: 2;
+   
+}
+#item-1 {
+
+   background-color: #9ee5a3; 
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+   
+}
+#item-2 {
+
+   background-color: #ffa970; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+#item-3 {
+
+   background-color: #ffee2e; 
+   grid-row-start: 1;
+   grid-column-start: 4;
+
+   grid-row-end: 2;
+   grid-column-end: 5;
+   
+}
+#item-4 {
+
+   background-color: #ffb8d1; 
+   grid-row-start: 1;
+   grid-column-start: 5;
+
+   grid-row-end: 2;
+   grid-column-end: 6;
+   
+}
+#item-5 {
+
+   background-color: #03a5ad; 
+   grid-row-start: 1;
+   grid-column-start: 6;
+
+   grid-row-end: 2;
+   grid-column-end: 7;
+   
+}
+#item-6 {
+
+   background-color: #b8e97d; 
+   grid-row-start: 1;
+   grid-column-start: 7;
+
+   grid-row-end: 2;
+   grid-column-end: 8;
+   
+}
+#item-7 {
+
+   background-color: #855DAD; 
+   grid-row-start: 1;
+   grid-column-start: 8;
+
+   grid-row-end: 2;
+   grid-column-end: 9;
+   
+}
+#item-8 {
+
+   
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+   
+}
+#item-9 {
+
+   
+   grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#item-10 {
+
+ 
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+#item-11 {
+
+   grid-row-start: 2;
+   grid-column-start: 4;
+
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#item-12 {
+
+   
+   grid-row-start: 2;
+   grid-column-start: 5;
+
+   grid-row-end: 3;
+   grid-column-end: 6;
+   
+}
+#item-13 {
+
+   grid-row-start: 2;
+   grid-column-start: 6;
+
+   grid-row-end: 3;
+   grid-column-end: 7;
+   
+}
+#item-14 {
+
+ 
+   grid-row-start: 2;
+   grid-column-start: 7;
+
+   grid-row-end: 3;
+   grid-column-end: 8;
+   
+}
+#item-15 {
+
+
+   grid-row-start: 2;
+   grid-column-start: 8;
+
+   grid-row-end: 3;
+   grid-column-end: 9; 
+ }
